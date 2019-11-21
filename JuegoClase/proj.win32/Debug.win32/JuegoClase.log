@@ -1,0 +1,14 @@
+﻿  AppDelegate.cpp
+  HelloWorldScene.cpp
+  main.cpp
+AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\JuegoClase.lib and object C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\JuegoClase.exp
+  JuegoClase.vcxproj -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\JuegoClase.exe
+  Performing Custom Build Step
+  C:\Users\eldav\Desktop\JuegoClase\JuegoClase\Resources\CloseNormal.png -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\Resources\CloseNormal.png
+  C:\Users\eldav\Desktop\JuegoClase\JuegoClase\Resources\CloseSelected.png -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\Resources\CloseSelected.png
+  C:\Users\eldav\Desktop\JuegoClase\JuegoClase\Resources\HelloWorld.png -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\Resources\HelloWorld.png
+  C:\Users\eldav\Desktop\JuegoClase\JuegoClase\Resources\fonts\arial.ttf -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\Resources\fonts\arial.ttf
+  C:\Users\eldav\Desktop\JuegoClase\JuegoClase\Resources\fonts\Marker Felt.ttf -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\Resources\fonts\Marker Felt.ttf
+  C:\Users\eldav\Desktop\JuegoClase\JuegoClase\Resources\res\.gitkeep -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\Resources\res\.gitkeep
+  6 File(s) copied
