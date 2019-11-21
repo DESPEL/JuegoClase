@@ -4,3 +4,9 @@
 *.pdb
 *.obj
 *.opendb
+*.tlog
+*.log
+*.lastbuildstate
+*.exp
+*.ilk
+*.suo
