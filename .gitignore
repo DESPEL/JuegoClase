@@ -1,0 +1,6 @@
+*.pch
+*.ipch
+*.VC.db
+*.pdb
+*.obj
+*.opendb
