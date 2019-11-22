@@ -40,10 +40,13 @@ static void problemLoading(const char* filename)
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 bool HelloWorld::init() {
 	if (!Layer::init())
 		return false;
 =======
+=======
+>>>>>>> parent of 91b00a9... Merge pull request #1 from DESPEL/Skyhunter-copy
 // on "init" you need to initialize your instance
 bool HelloWorld::init()
 {
@@ -66,6 +69,7 @@ bool HelloWorld::init()
                                            "CloseNormal.png",
                                            "CloseSelected.png",
                                            CC_CALLBACK_1(HelloWorld::menuCloseCallback, this));
+<<<<<<< HEAD
 
     if (closeItem == nullptr ||
         closeItem->getContentSize().width <= 0 ||
@@ -107,6 +111,48 @@ bool HelloWorld::init()
         this->addChild(label, 1);
     }
 
+=======
+
+    if (closeItem == nullptr ||
+        closeItem->getContentSize().width <= 0 ||
+        closeItem->getContentSize().height <= 0)
+    {
+        problemLoading("'CloseNormal.png' and 'CloseSelected.png'");
+    }
+    else
+    {
+        float x = origin.x + visibleSize.width - closeItem->getContentSize().width/2;
+        float y = origin.y + closeItem->getContentSize().height/2;
+        closeItem->setPosition(Vec2(x,y));
+    }
+
+    // create menu, it's an autorelease object
+    auto menu = Menu::create(closeItem, NULL);
+    menu->setPosition(Vec2::ZERO);
+    this->addChild(menu, 1);
+
+    /////////////////////////////
+    // 3. add your codes below...
+
+    // add a label shows "Hello World"
+    // create and initialize a label
+
+    auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
+    if (label == nullptr)
+    {
+        problemLoading("'fonts/Marker Felt.ttf'");
+    }
+    else
+    {
+        // position the label on the center of the screen
+        label->setPosition(Vec2(origin.x + visibleSize.width/2,
+                                origin.y + visibleSize.height - label->getContentSize().height));
+
+        // add the label as a child to this layer
+        this->addChild(label, 1);
+    }
+
+>>>>>>> parent of 91b00a9... Merge pull request #1 from DESPEL/Skyhunter-copy
     // add "HelloWorld" splash screen"
     auto sprite = Sprite::create("HelloWorld.png");
     if (sprite == nullptr)
