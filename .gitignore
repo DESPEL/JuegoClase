@@ -14,5 +14,5 @@
 *.idb
 *.db-shm
 *.VC.db-shm
-Debug.win32/
-cocos2d/
+Debug.win32/**
+cocos2d/**
