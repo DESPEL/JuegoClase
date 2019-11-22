@@ -5,6 +5,7 @@
 *.obj
 *.opendb
 *.tlog
+*.read.tlog
 *.log
 *.lastbuildstate
 *.exp
@@ -12,3 +13,5 @@
 *.suo
 *.idb
 *.db-shm
+*.VC.db-shm
+JuegoClase/proj.win32/Debug.win32/
