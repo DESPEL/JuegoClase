@@ -14,5 +14,5 @@
 *.idb
 *.db-shm
 *.VC.db-shm
-JuegoClase/proj.win32/Debug.win32/
-JuegoClase/cocos2d/
+Debug.win32/
+cocos2d/
