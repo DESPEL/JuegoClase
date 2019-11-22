@@ -26,7 +26,7 @@ public:
 	void update(float);
 
 	// implement the "static create()" method manually
-	HelloWorld();
+	//HelloWorld();
 	CREATE_FUNC(HelloWorld);
 	
 };

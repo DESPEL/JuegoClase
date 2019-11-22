@@ -2,9 +2,6 @@
 
 USING_NS_CC;
 
-HelloWorld::HelloWorld() {
-}
-
 Scene* HelloWorld::createScene() {
 	auto scene = Scene::create();
 	auto layer = HelloWorld::create();

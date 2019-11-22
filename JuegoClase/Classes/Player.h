@@ -21,6 +21,9 @@ private:
 	cocos2d::Vector<Bullet*> Balas;
 	int _numbullets = 100000;
 	void shoot();
+	float delay = 0;
+	float delayvalue = 0.25;
+
 
 	void createIdleAnimation();
 	void createExplosionAnimation();

@@ -134,7 +134,10 @@ void Player::update(float delta) {
 			this->setPosition(loc.x, loc.y - deltay * change);
 			break;
 		case EventKeyboard::KeyCode::KEY_SPACE:
-			this->shoot();
+			if (this->delay <= 0) {
+				this->shoot();
+				this->delay = this->delayvalue;
+			}
 			break;
 		}
 	}
@@ -151,4 +154,6 @@ void Player::update(float delta) {
 	if (this->getPosition().y - this->getContentSize().height / 2 <= 0)
 		this->setPosition(Vec2((this->getPosition().x), (this->getPosition().y + this->getContentSize().height / 2 - 10)));
 
+	if(delay > 0)
+		delay -= delta;
 }
