@@ -4,8 +4,7 @@
 
 class MovementPattern
 {
-	cocos2d::Vector<cocos2d::MoveBy*> movements;
+	auto sequence;
 	void addMove(float duration, cocos2d::Point delta);
 	auto getPattern();
 };
-

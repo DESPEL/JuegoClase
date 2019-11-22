@@ -1,3 +1,5 @@
-﻿  JuegoClase.vcxproj -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\JuegoClase.exe
+﻿  HelloWorldScene.cpp
+C:\Users\eldav\Desktop\JuegoClase\JuegoClase\Classes\HelloWorldScene.cpp(17,11): warning C4390: ';': empty controlled statement found; is this the intent?
+  JuegoClase.vcxproj -> C:\Users\eldav\Desktop\JuegoClase\JuegoClase\proj.win32\Debug.win32\JuegoClase.exe
   Performing Custom Build Step
   0 File(s) copied

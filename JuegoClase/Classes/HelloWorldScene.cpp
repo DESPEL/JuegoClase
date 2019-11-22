@@ -14,7 +14,6 @@ Scene* HelloWorld::createScene() {
 }
 
 bool HelloWorld::init() {
-	if (true);
 	if (!Layer::init())
 		return false;
 
