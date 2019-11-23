@@ -73,7 +73,7 @@ void Player::createExplosionAnimation() {
 void Player::shoot() {
 	auto bullet = Balas.at(bulletsact);
 	if(!vuelta)
-		this->getParent()->addChild(bullet);
+		this->getParent()->addChild(bullet, -1);
 	bullet->setAnchorPoint(Point(0.5, 0));
 	if (!bullet->isVisible()) {
 		bullet->setPosition(getPositionX(), getPositionY() + this->_contentSize.height/2);
@@ -110,7 +110,6 @@ void Player::update(float delta) {
 
 	auto director = Director::getInstance();
 	auto visiblesize = director->getVisibleSize();
-	int change = 4;
 	float deltay = visiblesize.height / visiblesize.width;
 	float deltax = visiblesize.width / visiblesize.height;
 

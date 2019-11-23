@@ -1,25 +1,16 @@
 ﻿  precheader.cpp
-  AssetsManager.cpp
-  AssetsManagerEx.cpp
-  CCEventAssetsManagerEx.cpp
-  CCEventListenerAssetsManagerEx.cpp
-  Manifest.cpp
   CCControl.cpp
   CCControlButton.cpp
   CCControlColourPicker.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\unzip.h(47,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\..\extensions\assets-manager\AssetsManager.cpp)
   CCControlHuePicker.cpp
   CCControlPotentiometer.cpp
   CCControlSaturationBrightnessPicker.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\extensions\assets-manager\AssetsManager.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\unzip.h(47,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
   CCControlSlider.cpp
   CCControlStepper.cpp
   CCControlSwitch.cpp
   CCControlUtils.cpp
   CCInvocation.cpp
   CCScrollView.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
   CCTableView.cpp
   CCTableViewCell.cpp
   CCParticle3DAffector.cpp
@@ -87,10 +78,10 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platf
   CCPUJetAffectorTranslator.cpp
   CCPULineAffector.cpp
   CCPULineAffectorTranslator.cpp
-  CCPULinearForceAffector.cpp
-  CCPULinearForceAffectorTranslator.cpp
   CCPULineEmitter.cpp
   CCPULineEmitterTranslator.cpp
+  CCPULinearForceAffector.cpp
+  CCPULinearForceAffectorTranslator.cpp
   CCPUListener.cpp
   CCPUMaterialManager.cpp
   CCPUMaterialTranslator.cpp
@@ -173,13 +164,22 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platf
   CCPUVertexEmitter.cpp
   CCPUVortexAffector.cpp
   CCPUVortexAffectorTranslator.cpp
+  AssetsManager.cpp
+  AssetsManagerEx.cpp
+  CCEventAssetsManagerEx.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\unzip.h(47,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\..\extensions\assets-manager\AssetsManager.cpp)
+  CCEventListenerAssetsManagerEx.cpp
+  Manifest.cpp
   CCPhysicsDebugNode.cpp
   CCPhysicsSprite.cpp
-  clipper.cpp
   ConvertUTF.c
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\extensions\assets-manager\AssetsManager.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\unzip.h(47,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
   ConvertUTFWrapper.cpp
+  clipper.cpp
   edtaa3func.cpp
   idl_gen_cpp.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
   idl_gen_fbs.cpp
   idl_gen_general.cpp
   idl_gen_go.cpp
@@ -192,18 +192,18 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platf
   sweep.cc
   sweep_context.cc
   tinyxml2.cpp
-  ioapi_mem.cpp
   ioapi.cpp
-  unzip.cpp
-  xxhash.c
+  ioapi_mem.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1180,46): warning C4305: '+=': truncation from 'double' to 'float'
-  CCAABB.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\xxhash\xxhash.c(312,5): warning C4804: '/': unsafe use of type 'bool' in operation
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\ioapi.h(25,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\..\external\unzip\ioapi_mem.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\external\unzip\ioapi_mem.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\ioapi.h(25,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\..\external\unzip\ioapi.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\external\unzip\ioapi.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\ioapi.h(25,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\..\external\unzip\ioapi_mem.cpp)
+  unzip.cpp
+  xxhash.c
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\external\unzip\ioapi_mem.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\unzip.h(47,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\..\external\unzip\unzip.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\external\unzip\unzip.cpp)
+  CCAABB.cpp
   CCAnimate3D.cpp
   CCAnimation3D.cpp
   CCAttachNode.cpp
@@ -234,18 +234,12 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\un
   AudioPlayer.cpp
   MciPlayer.cpp
   SimpleAudioEngine.cpp
-  CCAllocatorDiagnostics.cpp
-  CCAllocatorGlobal.cpp
-  CCAllocatorGlobalNewDelete.cpp
-  atitc.cpp
-  base64.cpp
   CCAsyncTaskPool.cpp
   CCAutoreleasePool.cpp
-  ccCArray.cpp
   CCConfiguration.cpp
   CCConsole.cpp
-  CCController.cpp
   CCController-linux-win32.cpp
+  CCController.cpp
   CCData.cpp
   CCDataVisitor.cpp
   CCDirector.cpp
@@ -266,31 +260,37 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\un
   CCEventListenerTouch.cpp
   CCEventMouse.cpp
   CCEventTouch.cpp
-  ccFPSImages.c
   CCIMEDispatcher.cpp
-  CCNinePatchImageParser.cpp
-  CCStencilStateManager.cpp
   CCNS.cpp
+  CCNinePatchImageParser.cpp
   CCProfiling.cpp
   CCProperties.cpp
-  ccRandom.cpp
   CCRef.cpp
   CCScheduler.cpp
   CCScriptSupport.cpp
+  CCStencilStateManager.cpp
   CCTouch.cpp
-  ccTypes.cpp
   CCUserDefault.cpp
-  ccUTF8.cpp
-  ccUtils.cpp
   CCValue.cpp
-  etc1.cpp
-  pvr.cpp
   ObjectFactory.cpp
-  s3tc.cpp
   TGAlib.cpp
   ZipUtils.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\..\external\unzip\unzip.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\xxhash\xxhash.c(312,5): warning C4804: '/': unsafe use of type 'bool' in operation
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\unzip.h(47,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\base\ZipUtils.cpp)
+  CCAllocatorDiagnostics.cpp
+  CCAllocatorGlobal.cpp
+  CCAllocatorGlobalNewDelete.cpp
+  atitc.cpp
+  base64.cpp
+  ccCArray.cpp
+  ccFPSImages.c
+  ccRandom.cpp
+  ccTypes.cpp
+  ccUTF8.cpp
+  ccUtils.cpp
+  etc1.cpp
+  pvr.cpp
+  s3tc.cpp
   cocos2d.cpp
   CCArray.cpp
   CCDeprecated.cpp
@@ -331,14 +331,14 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\un
   CSLoader.cpp
   CCActionFrame.cpp
   CCActionFrameEasing.cpp
-  CCActionManagerEx.cpp
-  CCActionNode.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\base\ZipUtils.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+  CCActionManagerEx.cpp
+  CCActionNode.cpp
   CCActionObject.cpp
   CCArmature.cpp
   CCArmatureAnimation.cpp
@@ -360,6 +360,7 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
   CCComAudio.cpp
   CCComController.cpp
+  CCComExtensionData.cpp
   CCComRender.cpp
   CCDataReaderHelper.cpp
   CCDatas.cpp
@@ -367,12 +368,11 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
   CCDisplayFactory.cpp
   CCDisplayManager.cpp
   CCInputDelegate.cpp
-  CCComExtensionData.cpp
   CCProcessBase.cpp
   CCSGUIReader.cpp
+  CCSSceneReader.cpp
   CCSkin.cpp
   CCSpriteFrameCacheHelper.cpp
-  CCSSceneReader.cpp
   CCTransformHelp.cpp
   CCTween.cpp
   CCUtilMath.cpp
@@ -386,7 +386,6 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
   TriggerObj.cpp
   WidgetCallBackHandlerProtocol.cpp
   ArmatureNodeReader.cpp
-  ButtonReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -397,6 +396,7 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+  ButtonReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -420,23 +420,11 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
   CheckBoxReader.cpp
   ComAudioReader.cpp
   GameMapReader.cpp
-  GameNode3DReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
-  ImageViewReader.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
@@ -451,7 +439,20 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+  GameNode3DReader.cpp
+  ImageViewReader.cpp
+  LayoutReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -462,7 +463,8 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
-  LayoutReader.cpp
+  Light3DReader.cpp
+  ListViewReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -473,11 +475,6 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
-  Light3DReader.cpp
-  ListViewReader.cpp
-  LoadingBarReader.cpp
-  NodeReaderDefine.cpp
-  NodeReaderProtocol.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -488,7 +485,6 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
-  NodeReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -498,7 +494,21 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+  LoadingBarReader.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+  Node3DReader.cpp
+  NodeReaderDefine.cpp
+  NodeReaderProtocol.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -508,31 +518,30 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+  NodeReader.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+  PageViewReader.cpp
+  Particle3DReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
-  PageViewReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
-  ParticleReader.cpp
-  ProjectNodeReader.cpp
-  ScrollViewReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -542,7 +551,31 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+  ParticleReader.cpp
+  ProjectNodeReader.cpp
+  ScrollViewReader.cpp
+  SingleNodeReader.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -552,18 +585,7 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
-  SingleNodeReader.cpp
   BoneNodeReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
@@ -574,21 +596,19 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
   SkeletonNodeReader.cpp
-  SliderReader.cpp
-  SpriteReader.cpp
-  TabControlReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+  SliderReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
@@ -598,13 +618,14 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
-  TextAtlasReader.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+  Sprite3DReader.cpp
+  SpriteReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
@@ -619,12 +640,48 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+  TabControlReader.cpp
+  TextAtlasReader.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+  TextBMFontReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+  TextFieldReader.cpp
+  TextReader.cpp
+  UserCameraReader.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
@@ -639,57 +696,23 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
-  TextBMFontReader.cpp
-  TextFieldReader.cpp
-  TextReader.cpp
-  Node3DReader.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
-  Sprite3DReader.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+  WidgetReader.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
@@ -704,33 +727,20 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
-  UserCameraReader.cpp
-  Particle3DReader.cpp
-  WidgetReader.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+  CCAffineTransform.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-  CCAffineTransform.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
   CCGeometry.cpp
   CCVertex.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
   Mat4.cpp
   MathUtil.cpp
   Quaternion.cpp
@@ -743,16 +753,6 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
   CCNavMeshDebugDraw.cpp
   CCNavMeshObstacle.cpp
   CCNavMeshUtils.cpp
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         with
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         [
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:             T=float
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
   CCDownloader-curl.cpp
   CCDownloader.cpp
   HttpClient.cpp
@@ -774,14 +774,14 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\edito
   CCPhysicsWorld.cpp
   CCFileUtils.cpp
   CCGLView.cpp
+  CCImage.cpp
+  CCSAXParser.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: 'argument': truncation from 'double' to 'T'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         with
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         [
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:             T=float
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305:         ] (compiling source file ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\unzip\unzip.h(47,1): warning C4005: 'CC_DLL': macro redefinition (compiling source file ..\platform\CCFileUtils.cpp)
-  CCImage.cpp
-  CCSAXParser.cpp
   CCThread.cpp
   CCGLViewImpl-desktop.cpp
   CCApplication-win32.cpp
@@ -797,7 +797,8 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\external\un
   CCGLProgramCache.cpp
   CCGLProgramState.cpp
   CCGLProgramStateCache.cpp
-  ccGLStateCache.cpp
+  CCGroupCommand.cpp
+  CCMaterial.cpp
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : see previous definition of 'CC_DLL' (compiling source file ..\platform\CCFileUtils.cpp)
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\renderer\CCGLProgramState.cpp(920,1): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\renderer\CCGLProgramState.cpp(174): message : see declaration of 'cocos2d::UniformValue::setTexture'
@@ -806,17 +807,14 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\rende
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\renderer\CCGLProgramState.cpp(941,1): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\renderer\CCGLProgramState.cpp(174): message : see declaration of 'cocos2d::UniformValue::setTexture'
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\renderer\CCGLProgramState.cpp(945,1): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
-  CCGroupCommand.cpp
-  CCMaterial.cpp
   CCMeshCommand.cpp
   CCPass.cpp
   CCPrimitive.cpp
   CCPrimitiveCommand.cpp
   CCQuadCommand.cpp
   CCRenderCommand.cpp
-  CCRenderer.cpp
   CCRenderState.cpp
-  ccShaders.cpp
+  CCRenderer.cpp
   CCTechnique.cpp
   CCTexture2D.cpp
   CCTextureAtlas.cpp
@@ -826,15 +824,16 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\rende
   CCVertexAttribBinding.cpp
   CCVertexIndexBuffer.cpp
   CCVertexIndexData.cpp
+  ccGLStateCache.cpp
+  ccShaders.cpp
   LocalStorage.cpp
   CocosGUI.cpp
-  UIButton.cpp
   UIAbstractCheckButton.cpp
+  UIButton.cpp
   UICheckBox.cpp
-  UIEditBoxImpl-common.cpp
-  UIRadioButton.cpp
   UIDeprecated.cpp
   UIEditBox.cpp
+  UIEditBoxImpl-common.cpp
   UIEditBoxImpl-win32.cpp
   UIHBox.cpp
   UIHelper.cpp
@@ -847,6 +846,7 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\rende
   UILoadingBar.cpp
   UIPageView.cpp
   UIPageViewIndicator.cpp
+  UIRadioButton.cpp
   UIRelativeBox.cpp
   UIRichText.cpp
   UIScale9Sprite.cpp
@@ -888,8 +888,8 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\rende
   CCClippingRectangleNode.cpp
   CCComponent.cpp
   CCComponentContainer.cpp
-  CCDrawingPrimitives.cpp
   CCDrawNode.cpp
+  CCDrawingPrimitives.cpp
   CCFastTMXLayer.cpp
   CCFastTMXTiledMap.cpp
   CCFontAtlas.cpp
@@ -903,8 +903,8 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\rende
   CCLabel.cpp
   CCLabelAtlas.cpp
   CCLabelBMFont.cpp
-  CCLabelTextFormatter.cpp
   CCLabelTTF.cpp
+  CCLabelTextFormatter.cpp
   CCLayer.cpp
   CCLight.cpp
   CCMenu.cpp
@@ -925,12 +925,12 @@ C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\rende
   CCSpriteBatchNode.cpp
   CCSpriteFrame.cpp
   CCSpriteFrameCache.cpp
-  CCTextFieldTTF.cpp
-  CCTileMapAtlas.cpp
   CCTMXLayer.cpp
   CCTMXObjectGroup.cpp
   CCTMXTiledMap.cpp
   CCTMXXMLParser.cpp
+  CCTextFieldTTF.cpp
+  CCTileMapAtlas.cpp
   CCTransition.cpp
   CCTransitionPageTurn.cpp
   CCTransitionProgress.cpp

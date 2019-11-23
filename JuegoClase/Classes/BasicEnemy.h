@@ -10,10 +10,15 @@ private:
 	void createIdleAnimation();
 	void createExplosionAnimation();
 
+	float DyingTime = 0.90;
+
 public:
 	enum Animations {
 		IDLE = 0, EXPLOSION = 1
 	};
+
+	void setCurrentAnimation(Animations anim);
+	void explode();
 
 	CC_SYNTHESIZE(Animations, _currentAnimation, _currentAnimation);
 	CC_SYNTHESIZE(float, _speed, Speed);

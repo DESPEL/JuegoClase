@@ -13,7 +13,7 @@ bool BasicEnemy::init() {
 	createExplosionAnimation();
 
 	runAction(_idleAnimation);
-
+	
 	return true;
 }
 
@@ -35,6 +35,8 @@ void BasicEnemy::createIdleAnimation() {
 	_idleAnimation = RepeatForever::create(animate);
 
 	_idleAnimation->setTag(BasicEnemy::Animations::IDLE);
+
+	_idleAnimation->retain();
 }
 
 void BasicEnemy::createExplosionAnimation() {
@@ -51,8 +53,31 @@ void BasicEnemy::createExplosionAnimation() {
 	_explosionAnimation = Animate::create(animation);
 
 	_explosionAnimation->setTag(BasicEnemy::Animations::EXPLOSION);
+
+	_explosionAnimation->retain();
 }
 
-void BasicEnemy::update(float delta) {
+void BasicEnemy::setCurrentAnimation(Animations anim) {
+	if (_currentAnimation == anim) return;
+	_currentAnimation = anim;
+	if (_currentAnimation == IDLE) {
+		stopActionByTag(EXPLOSION);
+		runAction(_idleAnimation);
+	}
+	if (_currentAnimation == EXPLOSION) {
+		stopActionByTag(IDLE);
+		runAction(_explosionAnimation);
+	}
+}
 
+void BasicEnemy::explode() {
+	this->setCurrentAnimation(BasicEnemy::EXPLOSION);
+	auto removeSelf = RemoveSelf::create();
+	auto wait = DelayTime::create(0.90f);
+	auto move = MoveTo::create(0, Vec2(this->getPosition().x, -500));
+	this->runAction(Sequence::create(wait, move, removeSelf, NULL));
+} 
+
+void BasicEnemy::update(float delta) {
+	
 }
