@@ -5,7 +5,7 @@
 #include "background.h"
 #include "Player.h"
 #include "BasicEnemy.h"
-
+#include "Tipos.h"
 
 class HelloWorld : public cocos2d::Layer
 {

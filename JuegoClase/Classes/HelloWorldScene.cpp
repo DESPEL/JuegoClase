@@ -7,6 +7,7 @@ Scene* HelloWorld::createScene() {
 	auto layer = HelloWorld::create();
 	scene->addChild(layer);
 
+
 	return scene;
 }
 
@@ -18,7 +19,7 @@ bool HelloWorld::init() {
 	Size visibleSize = Director::getInstance()->getWinSize();
 
 	_bg = Background::create();
-	addChild(_bg);
+	addChild(_bg, -1);
 
 	_player = Player::create();
 	_player->setPosition(visibleSize.width / 2, visibleSize.height / 2 - 100);

@@ -36,13 +36,13 @@
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\spine\SkeletonBinary.c(310,24): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\spine\SkeletonBinary.c(372,24): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\spine\SkeletonBinary.c(484,26): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\spine\SkeletonJson.c(97,12): warning C4018: '>=': signed/unsigned mismatch
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\spine\SkeletonBinary.c(649,2): warning C4018: '<': signed/unsigned mismatch
   TransformConstraintData.c
   Triangulator.c
   VertexAttachment.c
   VertexEffect.c
 C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\spine\SkeletonBinary.c(652,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\cocos2d\cocos\editor-support\spine\SkeletonJson.c(97,12): warning C4018: '>=': signed/unsigned mismatch
   AttachmentVertices.cpp
   Cocos2dAttachmentLoader.cpp
   SkeletonAnimation.cpp

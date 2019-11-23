@@ -1,6 +1,5 @@
 #include "bullet.h"
 
-
 USING_NS_CC;
 
 bool Bullet::initWithFile(const std::string& filename) {
@@ -43,7 +42,7 @@ Bullet* Bullet::createEnemyBullet() {
 
 void Bullet::update(float dt) {
 	if (!this->isVisible()) return;
-
+	auto scene = Director::getInstance()->getRunningScene();
 	if (_type == PLAYER_BULLET) {
 		//para arriba
 		setAnchorPoint(Point(0.5, 0));

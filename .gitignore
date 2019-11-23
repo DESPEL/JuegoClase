@@ -119,3 +119,4 @@ proj.win32/Debug.*/
 proj.win32/Release.*/
 
 # others
+JuegoClase/cocos2d/cocos/2d/Debug.win32/libcocos2d.pch

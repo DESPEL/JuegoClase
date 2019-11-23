@@ -4,12 +4,12 @@
 #include <map>
 #include "keyboard.h"
 #include "Bullet.h"
-#include "bullet.h"
+//#include "Player\Changuito.h"
 
 class Bullet;
 
 class Player : public cocos2d::Sprite {
-private:
+protected:
 
 	cocos2d::Action* _idleAnimation;
 	cocos2d::Action* _explosionAnimation;
@@ -18,11 +18,12 @@ private:
 	KeyBoard* _control;
 
 	// Balas
-	cocos2d::Vector<Bullet*> Balas;
-	int _numbullets = 100000;
+	
+	int _numbullets = 1000;
 	void shoot();
 	float delay = 0;
 	float delayvalue = 0.25;
+	int change = 4;
 
 
 	void createIdleAnimation();
@@ -47,5 +48,6 @@ public:
 	// Variables para disparos
 	int bulletsact = 0;
 	bool vuelta = 0;
+	cocos2d::Vector<Bullet*> Balas;
 };
 
