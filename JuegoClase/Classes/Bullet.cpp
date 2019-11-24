@@ -40,6 +40,11 @@ Bullet* Bullet::createEnemyBullet() {
 	return nullptr;
 }
 
+void Bullet::colision() {
+	activa = false;
+	setVisible(false);
+}
+
 void Bullet::update(float dt) {
 	if (!this->isVisible()) return;
 	auto scene = Director::getInstance()->getRunningScene();
@@ -49,6 +54,7 @@ void Bullet::update(float dt) {
 		setPosition(getPositionX(), getPositionY() + _speed * dt);
 		if (getPositionY() > Director::getInstance()->getVisibleSize().height) {
 			setVisible(false);
+			activa = false;
 		}
 	}
 	else if (_type == ENEMY_BULLET) {
@@ -57,6 +63,7 @@ void Bullet::update(float dt) {
 		setPosition(getPositionX(), getPositionY() - _speed * dt);
 		if (getPositionY() < 0) {
 			setVisible(false);
+			activa = false;
 		}
 	}
 }

@@ -72,6 +72,7 @@ void Player::createExplosionAnimation() {
 
 void Player::shoot() {
 	auto bullet = Balas.at(bulletsact);
+	bullet->activa = true;
 	if(!vuelta)
 		this->getParent()->addChild(bullet, -1);
 	bullet->setAnchorPoint(Point(0.5, 0));

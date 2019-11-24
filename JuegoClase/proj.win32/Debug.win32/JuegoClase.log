@@ -1,3 +1,17 @@
-﻿  JuegoClase.vcxproj -> C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\proj.win32\Debug.win32\JuegoClase.exe
+﻿  AppDelegate.cpp
+  BasicEnemy.cpp
+  Bullet.cpp
+  HelloWorldScene.cpp
+  Player.cpp
+  Changuito.cpp
+  DebugScene.cpp
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\Classes\BasicEnemy.h(18,24): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file ..\Classes\Player.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\Classes\BasicEnemy.h(18,24): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file ..\Classes\AppDelegate.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\Classes\BasicEnemy.h(18,24): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file ..\Classes\HelloWorldScene.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\Classes\BasicEnemy.h(18,24): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file ..\Classes\Scenes\DebugScene.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\Classes\BasicEnemy.h(18,24): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file ..\Classes\BasicEnemy.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\Classes\BasicEnemy.h(18,24): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file ..\Classes\Bullet.cpp)
+C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\Classes\BasicEnemy.h(18,24): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file ..\Classes\Player\Changuito.cpp)
+  JuegoClase.vcxproj -> C:\Users\Hector Osuna\Documents\GitHub\JuegoClase\JuegoClase\proj.win32\Debug.win32\JuegoClase.exe
   Performing Custom Build Step
   0 archivo(s) copiado(s)

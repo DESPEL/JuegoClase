@@ -7,10 +7,13 @@ private:
 		//Enemys
 		int _numEnemies = 10;
 		int _enemyIndex = 0;
+		float delay = 0;
 
 		Background* _bg;
 		Player* _player;
 		cocos2d::Vector<BasicEnemy*> _enemyPool;
+
+		void createEnemy();
 
 public:
 		static cocos2d::Scene* createScene();

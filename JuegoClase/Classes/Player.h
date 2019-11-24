@@ -49,5 +49,7 @@ public:
 	int bulletsact = 0;
 	bool vuelta = 0;
 	cocos2d::Vector<Bullet*> Balas;
+
+	int kills = 0;
 };
 
