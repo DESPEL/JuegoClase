@@ -70,9 +70,10 @@ void Player::createExplosionAnimation() {
 	_explosionAnimation->retain();
 }
 
-void Player::shoot() {
+void Player::shoot(Vec2 dir) {
 	auto bullet = Balas.at(bulletsact);
 	bullet->activa = true;
+	bullet->direccion = dir;
 	if(!vuelta)
 		this->getParent()->addChild(bullet, -1);
 	bullet->setAnchorPoint(Point(0.5, 0));
@@ -135,7 +136,19 @@ void Player::update(float delta) {
 			break;
 		case EventKeyboard::KeyCode::KEY_SPACE:
 			if (this->delay <= 0) {
-				this->shoot();
+				this->shoot(Vec2(0,1));
+				this->delay = this->delayvalue;
+			}
+			break;	
+		case EventKeyboard::KeyCode::KEY_Q:
+			if (this->delay <= 0) {
+				this->shoot(Vec2(-1, 1));
+				this->delay = this->delayvalue;
+			}
+			break;
+		case EventKeyboard::KeyCode::KEY_E:
+			if (this->delay <= 0) {
+				this->shoot(Vec2(1, 1));
 				this->delay = this->delayvalue;
 			}
 			break;

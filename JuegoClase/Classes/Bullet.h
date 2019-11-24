@@ -13,6 +13,8 @@ public:
 	static Bullet* createPlayerBullet();
 
 	bool activa = false;
+	cocos2d::Vec2 direccion;
+
 
 	virtual bool initWithFile(const std::string&);
 

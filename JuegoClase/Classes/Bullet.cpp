@@ -21,6 +21,7 @@ Bullet* Bullet::createPlayerBullet() {
 	if (sprite && sprite->initWithFile("disparo_nave.png")) {
 		sprite->_type = PLAYER_BULLET;
 		sprite->autorelease();
+		sprite->direccion = Vec2(0, 1);
 		return sprite;
 	}
 
@@ -33,6 +34,7 @@ Bullet* Bullet::createEnemyBullet() {
 	if (sprite && sprite->initWithFile("disparo_enemigo.png")) {
 		sprite->_type = ENEMY_BULLET;
 		sprite->autorelease();
+		sprite->direccion = Vec2(0, -1);
 		return sprite;
 	}
 
@@ -51,8 +53,8 @@ void Bullet::update(float dt) {
 	if (_type == PLAYER_BULLET) {
 		//para arriba
 		setAnchorPoint(Point(0.5, 0));
-		setPosition(getPositionX(), getPositionY() + _speed * dt);
-		if (getPositionY() > Director::getInstance()->getVisibleSize().height) {
+		setPosition(getPositionX() + direccion.x * _speed * dt, getPositionY() + direccion.y * _speed * dt); 
+		if (getPositionY() > Director::getInstance()->getVisibleSize().height || getPositionX() > Director::getInstance()->getVisibleSize().width || getPositionX() < 0 || getPositionY() < 0) {
 			setVisible(false);
 			activa = false;
 		}
@@ -60,8 +62,8 @@ void Bullet::update(float dt) {
 	else if (_type == ENEMY_BULLET) {
 		//para abajo
 		setAnchorPoint(Point(0.5, 1));
-		setPosition(getPositionX(), getPositionY() - _speed * dt);
-		if (getPositionY() < 0) {
+		setPosition(getPositionX() + direccion.x * _speed * dt, getPositionY() + direccion.y * _speed * dt);
+		if (getPositionY() > Director::getInstance()->getVisibleSize().height || getPositionX() > Director::getInstance()->getVisibleSize().width || getPositionX() < 0 || getPositionY() < 0) {
 			setVisible(false);
 			activa = false;
 		}

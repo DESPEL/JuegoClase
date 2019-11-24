@@ -20,7 +20,7 @@ protected:
 	// Balas
 	
 	int _numbullets = 1000;
-	void shoot();
+	void shoot(cocos2d::Vec2);
 	float delay = 0;
 	float delayvalue = 0.25;
 	int change = 4;

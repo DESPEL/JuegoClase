@@ -1,4 +1,6 @@
 #include "DebugScene.h"
+#include "SimpleAudioEngine.h"
+using namespace CocosDenshion;
 
 USING_NS_CC;
 
@@ -18,21 +20,24 @@ bool DebugScene::init() {
 
 	auto _visibleSize = Director::getInstance()->getWinSize();
 
+	//Crea el background
 	_bg = Background::create();
 	addChild(_bg, -1);
 
+	//Crea al jugador
 	_player = Player::create();
 	_player->setPosition(_visibleSize.width / 2, _visibleSize.height / 2 - 100);
 	_player->setScale(2);
 	addChild(_player);
 
+	//Crea al enemigo
 	auto enemy = BasicEnemy::create();
 	enemy->setPosition(_visibleSize.width /2, _visibleSize.height /2 + 100);
 	enemy->setScale(2);
 	_enemyPool.pushBack(enemy);
 	addChild(enemy);
 	
-
+	//Agrega el update al updater mas grande
 	this->schedule(schedule_selector(DebugScene::update));
 
 	//Aparece enemigos de manera aleatoria y automatica
@@ -40,6 +45,10 @@ bool DebugScene::init() {
 	CallFunc* callSelectorAction = CallFunc::create(CC_CALLBACK_0(DebugScene::createEnemy, this));
 	auto shootSequence = Sequence::create(delayAction, callSelectorAction, NULL);
 	runAction(RepeatForever::create(shootSequence));
+
+
+	// Musica
+	SimpleAudioEngine::getInstance()->playBackgroundMusic("Music\\get_lucky.mp3", true);
 
 	return true;
 }
