@@ -12,8 +12,13 @@ public:
 	static Bullet* createEnemyBullet();
 	static Bullet* createPlayerBullet();
 
+	bool activa = false;
+	cocos2d::Vec2 direccion;
+
+
 	virtual bool initWithFile(const std::string&);
 
+	void colision();
 
 private:
 	enum Type { ENEMY_BULLET = 0, PLAYER_BULLET = 1 };
